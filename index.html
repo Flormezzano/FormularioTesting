@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Formulario de Registro</title>
+       <link rel="stylesheet" href="estilo.css">
+       <link rel="shortcut icon" href="images/login.png" type="image/x-icon">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100;400&family=Maven+Pro&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <section class="formul">
+            
+    <form action="codigo.php">
+        <img src="images/person.png" class="image"><br>
+        
+            <input class="controls" type="text" placeholder="Nombre(s)" maxlength="20" required> <br> <br>
+            <input class="controls" type="text" placeholder="Apellido(s)" maxlength="20" required> <br> <br>
+            <input class="controls" type="number" placeholder="Teléfono" max="120" required> <br> <br>
+            <input class="controls" type="email" placeholder="usuario@gmail.com" required> 
+                        
+        
+        </select> <br><br> 
+        <select class="select">
+            <option value="Nacionalidad"> País </option>
+            <option value="Argentina"> Argentina </option>
+            <option value="Brasilera"> Brasil </option>
+            <option value="Chilena"> Chile</option>
+        </select> <br> <br>
+                <input class="controls" type="text" placeholder="Calle" maxlength="20" >
+                <input class="controls" type="number" placeholder="Número"> <br> <br>
+                <input class="controls" type="text" placeholder="Piso">
+                <input class="controls" type="number" placeholder="Depatartamento"> <br> 
+         <br>
+        <select class="select">
+            <option value="Femenino"> Femenino </option>
+            <option value="Masculino"> Masculino </option>
+            <option value="No binario"> No binario </option>
+            <option value="Otro"> Otro</option> 
+            </select> <br> <br>
+        </section>
+        <section class="flotante"> 
+            <a href="pagExito.html"><input class="btn" type="button" style="font-family: 'Genos', sans-serif;" value="ENVIAR"></a>
+        </section>
+        
+    </form>
+</body>
+</html>
