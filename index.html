@@ -15,21 +15,23 @@
     
     <section class="formul">
             
-    <form action="codigo.php">
+    <form action="codigo.php" id="miFormulario">
         <img src="images/person.png" class="image"><br>
         
             <input class="controls" type="text" placeholder="Nombre(s)" maxlength="20" required> <br> <br>
             <input class="controls" type="text" placeholder="Apellido(s)" maxlength="20" required> <br> <br>
             <input class="controls" type="number" placeholder="Teléfono" max="120" required> <br> <br>
-            <input class="controls" type="email" placeholder="usuario@gmail.com" required> 
-                        
+            <input class="controls" type="email" placeholder="usuario@gmail.com" required> <br> <br>
+            <input class="controls" type="password" placeholder="Contraseña" required> 
+            
         
         </select> <br><br> 
         <select class="select">
-            <option value="Nacionalidad"> País </option>
-            <option value="Argentina"> Argentina </option>
-            <option value="Brasilera"> Brasil </option>
-            <option value="Chilena"> Chile</option>
+            <option value="Provincia"> Provincia </option>
+            <option value="Buenos Aires"> Buenos Aires </option>
+            <option value="Córdoba"> Córdoba </option>
+            <option value="Santa Fe"> Santa Fe</option>
+            <option value="San Luis"> San Luis</option>
         </select> <br> <br>
                 <input class="controls" type="text" placeholder="Calle" maxlength="20" >
                 <input class="controls" type="number" placeholder="Número"> <br> <br>
@@ -41,12 +43,10 @@
             <option value="Masculino"> Masculino </option>
             <option value="No binario"> No binario </option>
             <option value="Otro"> Otro</option> 
-            </select> <br> <br>
+            </select> 
         </section>
-        <section class="flotante"> 
-            <a href="pagExito.html"><input class="btn" type="button" style="font-family: 'Genos', sans-serif;" value="ENVIAR"></a>
-        </section>
-        
-    </form>
+            <button type="button" class="btn" style="font-family: 'Genos', sans-serif;">ENVIAR</button>
+     </form>
+
 </body>
 </html>

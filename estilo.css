@@ -21,6 +21,7 @@ input:focus{
     background-color: #424040;
     border: #424040;
     border-radius: 2cm;
+    text-align: center;
 }
  
 .select{
@@ -48,9 +49,23 @@ input:focus{
     display: flex;
     } 
 
+    .oculto {
+        display: none;
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+
 .image{
-    border-radius: 100%;
-    width: 120px;
+    border-radius: 150%;
+    width: 200px;
     margin: auto;
     margin-top: -90px;
     margin-bottom: 20px;
@@ -78,7 +93,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin: auto;
     padding: 10px;
     width: 300px;
-    margin-left: 50px;
+    margin-left: 12.8cm;
     cursor: pointer;
     border-radius: 10px;  
     color: white;
